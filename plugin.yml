@@ -1,0 +1,12 @@
+name: SimpleVoteListener
+author: Puyttre
+version: 2.4
+description: Simple vote listener for Votifier.
+
+main: me.puyttre.svl.SimpleVoteListener
+depend: [Votifier]
+
+commands:
+  svl:
+    description: 'Basic SimpleVoteListener command.'
+    usage: '<command> [subcommand] (parameters)'
